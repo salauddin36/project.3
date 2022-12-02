@@ -1,0 +1,321 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(215, 215, 215, 0.445);
+}
+header{
+    background-image: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 63vh;
+}
+
+/*            */
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar p{
+    color: white;
+    padding: 20px 20px 0 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 25px 0 0;
+    font-size: 25px;
+}
+
+.navbar img{
+    width: 15px;
+}
+/*              */
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+.search .line1{
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+.search .line2{
+    font-size: 50px;
+    color: white;
+}
+.search .searchbox{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 800px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.search .searchbox span{
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    color: gray;
+    cursor: pointer;
+}
+.search .searchbox input{
+    width: 560px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-size: 17px;
+}
+
+.searchbox img{
+    width: 20px;
+    padding-left: 1px;
+}
+
+.gps{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: -225px;
+    cursor: pointer;
+}
+.gps p:first-child{
+    color: red;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.gps p:last-child{
+    color: gray;
+    margin-left: 30px;
+}
+.gps img{
+    width: 30px;
+    padding-right: 10px;
+}
+/*       */
+.services{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box1{
+    width: 330px;
+    border: 2px solid rgba(164, 164, 164, 0.399);
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+.box1:hover{
+    width: 350px;
+    transition: 0.3s ease;
+    margin: 10px;
+}
+
+.box1 img{
+    width: 100.5%;
+    height: 150px;
+    object-fit: cover;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+}
+.box1 p:nth-child(2){
+    margin: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.box1 p:last-child{
+    margin: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    color: rgb(64, 63, 63);
+}
+
+/*              */
+.app{
+    width: 800px;
+    height: 450px;
+    background-color: rgba(241, 241, 241, 0.445);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.apimg img{
+    width: 250px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.div2 h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.div2 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(53, 53, 53);
+}
+
+.div2 input[type=radio]{
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.div2 label{
+    margin-right: 30px;
+    font-size: 20px;
+}
+.div2 input[type=email]{
+    width: 250px;
+    height: 45px;
+    padding-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(153, 150, 150, 0.659);
+}
+input[type=email]::placeholder{
+    color: rgba(153, 150, 150, 0.659);
+}
+
+.div2 button{
+    height: 45px;
+    padding: 10px 20px;
+    background-color:rgb(239, 79, 95);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.div2 .line1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: grey;
+}
+.div2 .img{
+    display: flex;
+}
+.div2 .img img{
+    width: 130px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*                   */
+
+.options{
+    width: 90%;
+    background-color: rgba(241, 241, 241, 0.445);
+    padding-left: 40px;
+    margin: auto;
+    padding-top: 20px;
+}
+.options .head{
+    font-size: 40px;
+}
+
+.options .box2{
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid rgba(171, 170, 170, 0.623);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/*               */
+.mainsection{
+    width: 85%;
+    background-color: rgba(241, 241, 241, 0.445);
+    margin: 50px auto 0;
+}
+.mainsection .section1{
+    display: flex;
+    justify-content: space-between;
+}
+.mainsection .section1 img{
+    width: 180px;
+    height: 30px;
+    padding-left: 40px;
+}
+
+.mainsection .section1 button{
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.mainsection .section2{
+    display: flex;
+}
+
+.mainsection .section2 .boxes{
+    margin: 20px;
+    width: 200px;
+}
+.mainsection .section2 .boxes p{
+    line-height: 30px;
+    padding-left: 20px;
+    color: rgb(89, 88, 88);
+}
+.mainsection .section2 .boxes p:first-child{
+    color: black;
+    font-weight: 500;
+}
+
+.mainsection .section2 .boxes img{
+    width: 150px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*             */
+
+footer{
+    padding: 20px 100px;
+    
+}
+footer p{
+    border-top: 1px solid gray;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
