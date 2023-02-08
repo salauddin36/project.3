@@ -319,3 +319,149 @@ footer p{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/*  */
+
+@media screen and (min-width: 768px) and (max-width: 1400px)  {
+
+    header {
+        height: 65vh;
+    }
+    .search .line1 {
+        font-size: 90px;
+        margin-bottom: 0px;
+    }
+    .search .line2 {
+        font-size: 40px;
+    }
+}
+
+
+/*  */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        height: 35px;
+        justify-content: space-between;
+    }
+    .navbar ul li a {
+        padding: 25px 15px 0 0;
+        font-size: 20px;
+    }
+    .search .searchbox {
+        width: 750px;
+    }
+    .search .searchbox input {
+        width: 400px;
+        font-size: 18px;
+    }
+    .search .line1 {
+        font-size: 80px;
+        margin-bottom: 0px;
+    }
+    .search .line2 {
+        font-size: 30px;
+    }
+    .gps {
+        margin-left: 50px;
+    }
+    .options {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .options .box2 {
+        font-size: 20px;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    .app {
+        width: 750px;
+        margin: -15px;
+    }
+    .mainsection {
+        width: 90%;
+        background-color: rgba(241, 241, 241, 0.445);
+        margin: 20px 20px;
+    }
+    .mainsection .section2 .boxes {
+        margin: 3px;
+        width: 130px;
+    }
+    .mainsection .section2 {
+        width: 700px;
+    }
+    .mainsection .section2 .boxes p {
+        line-height: 25px;
+        padding-left: 3px;
+        font-size: 14px;
+    }
+    footer {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .navbar{
+        display: none;
+    }
+    .search .searchbox {
+        width: 300px;
+    }
+    .search .searchbox input {
+        width: 279px;
+        font-size: 17px;
+    }
+    .search .line1 {
+        font-size: 50px;
+    }
+    .search .line2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .services {
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .apimg img {
+        margin: 0 15px;
+    }
+    .box1 {
+        margin: 5px;
+        width: 300px;
+    }
+    .box1 p:nth-child(2) {
+        margin: 0px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .app {
+        width: 310px;
+        margin: 7px;
+        height: 765px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gps {
+        margin-left: 447px;
+        width: 300px;
+    }
+    .div2 button {
+        margin: 5px 0;
+    }
+    .mainsection .section2 {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainsection .section1 img {
+        padding-left: 10px;
+    }
+    .btn{
+        margin-left: 25px;
+    }
+    .mainsection .section1 button {
+        font-size: 16px;
+        margin: 3px 0px;
+    }
+}
